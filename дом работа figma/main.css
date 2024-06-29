@@ -1,0 +1,508 @@
+@import url('./style/footer.css');
+@import url('./style/header.css');
+@import url('./style/navbar.css');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+ 
+ body{
+   background-color: white;
+   overflow-x: hidden;
+  
+ }
+
+main{
+   background-color:#ffff;
+   display: flex;
+   
+   
+}
+.category{
+background-color:#ffff;
+display: flex;
+ width: 100%;
+ flex-direction: column;
+ height: 310px;
+}
+   .ct_top{
+      margin-top: 100px;
+      display: flex;
+      width: 100%;
+       justify-content: center;
+       gap: 900px;
+       margin-left: 170px;
+        
+   }
+   .top_h1{
+ color: #000;
+font-size: 30px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0.01em;
+display: flex;
+margin-left: 160px;
+   }
+   .arrow{
+ margin-right: 240px;
+ display: flex;
+   }
+   .cards{
+     margin-top: 50px;
+     display: flex;
+     gap: 70px;
+     margin-left: 300px;
+      
+   }
+   .phone_cd{
+      display: flex;
+      border-radius: 15px;
+      background-color: #EDEDED;
+      border: none;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      padding: 35px;
+      gap: 8px;
+      width: 160px;
+      height: 128px;
+   }
+    .gadgets_h2{
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+text-align: center;
+    }
+    .chooice_h1{
+      white-space: nowrap;
+font-size: 25px;
+font-weight: 500;
+line-height: 32px;
+text-align: center;
+border-bottom: 2px solid black;
+padding-bottom: 5px;
+    }
+    .sale_cards{
+      display: flex;
+       position: relative;
+       top: 350px;
+       right: 1330px;
+       width: 1500px;
+    }
+     .choose_m{
+      display: flex;
+      margin-bottom: 90px;
+      height: 350px;
+      
+     }
+     .chooice_h2{
+      display: inline;
+font-size: 25px;
+font-weight: 500;
+line-height: 32px;
+text-align: center;
+color:#8B8B8B;
+white-space: nowrap;
+     }
+.chooice_div{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   gap: 40px;
+}
+.product_cards{
+   display: flex;
+   position: relative;
+   top: 230px;
+   flex-direction: row;
+   right: 510px;
+   gap: 30px;
+}
+.iphone_pro{
+   background-color:#F6F6F6;
+   border-radius: 9px;
+   border: none;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  align-items: center;
+  width: 278px;
+  height: 442px;
+  padding: 35px;
+  gap: 15px;
+  
+ 
+}
+.about__product{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 15px;
+}
+.about_p{
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+text-align: center;
+color: #000;
+max-width: 400px;
+ 
+}
+.price_h1{
+font-size: 28px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: center;
+}
+.btn_prise{
+   display: flex;
+   width: 183px;
+   height: 48px;
+   background-color:  #000000;
+border-radius: 15px;
+padding: 20px;
+ gap: 10px;
+ align-items: center;
+ justify-content: center;
+}
+.btn_h2{
+font-size: 14px;
+font-weight: 500;
+line-height: 24px;
+text-align: center;
+color: #ffff;
+}
+    .like_heart{
+     margin-left: 90%;
+    }
+  .iphone_pro2{
+   background-color:#F6F6F6;
+   border-radius: 9px;
+   border: none;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  align-items: center;
+  width: 278px;
+  height: 442px;
+  padding: 35px;
+  gap: 27px;
+  }
+   .iphone_pro3{
+      background-color:#F6F6F6;
+      border-radius: 9px;
+      border: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+     align-items: center;
+     width: 278px;
+     height: 442px;
+     padding: 45px;
+     gap: 40px;
+   }
+
+   .about__product2{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 25px;
+     margin-bottom: 30px;
+   }
+   .like_heart2{
+      margin-left: 90%;
+      position: relative;
+      top: 30px;
+   }
+    .product_cards_2{
+      display: flex;
+      position: relative;
+      top: 700px;
+      flex-direction: row;
+      right: 1710px;
+      gap: 30px;
+    }
+      .big_products{
+         display: flex;
+      position: relative;
+      top: 1200px;
+      flex-direction: row;
+      gap: 30px;
+       right: 3250px;
+       justify-content: center;
+       margin-left: 200px;
+      }
+      .big_things{
+         display: flex;
+         width: 360px;
+         height: 640px;
+         flex-direction: column;
+         border: none;
+         border-radius: 10px;
+         background-color:#FFFF;
+         gap: 10px;
+          
+      }
+      .about_bigp{
+         color:#909090; 
+ font-size: 14px;
+ font-weight: 500;
+ line-height: 24px;  
+ max-width: 300px;
+      }
+      .big_h1{
+         font-size: 33px;
+         font-weight: 300;
+         line-height: 48px;
+         margin-right: 55px;
+      }
+      
+      .header_boot_2{
+         width: 184px;
+         height: 56px;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 24px;
+     background-color: transparent;
+     border: 1px black solid;
+     margin-right: 100px;
+     border-radius: 8px;
+      }
+.about__product_2{
+   display: flex;
+   position: relative;
+   flex-direction: column;
+   align-items: center;
+   bottom: 100px;
+   gap: 15px;
+   left: 18px;
+}
+ .big_things_2{
+   display: flex;
+   width: 360px;
+   height: 640px;
+   flex-direction: column;
+   border: none;
+   border-radius: 10px;
+   background-color: #F9F9F9;
+   gap: 10px;
+ }
+ .big_h2{
+   font-family: SF Pro Display;
+font-size: 33px;
+font-weight: 300;
+line-height: 48px;
+margin-right: 160px;
+ }
+ .about__product_3{
+   display: flex;
+   position: relative;
+   flex-direction: column;
+   align-items: center;
+   gap: 15px;
+   left: 18px;
+   bottom: 20px;
+ }
+ .big_things_3{
+   display: flex;
+   width: 360px;
+   height: 640px;
+   flex-direction: column;
+   border: none;
+   border-radius: 10px;
+   background-color:#EAEAEA;
+   gap: 10px;
+ }
+ .big_h3{
+   font-size: 33px;
+   font-weight: 300;
+   line-height: 48px;
+   margin-right: 60px;
+ }
+ .big_things_4{
+   display: flex;
+   width: 360px;
+   height: 640px;
+   flex-direction: column;
+   border: none;
+   border-radius: 10px;
+   background-color: #2C2C2C;
+   gap: 10px;
+ }
+ .big_h4{
+   font-size: 33px;
+   font-weight: 300;
+   line-height: 48px;
+   margin-right: 110px;
+   color: #FFFF;
+
+ }
+ .about__product_4{
+   display: flex;
+   position: relative;
+   flex-direction: column;
+   align-items: center;
+   gap: 15px;
+   left: 18px;
+   bottom: 35px;
+ }
+ .header_boot_3{
+   width: 184px;
+   height: 56px;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+background-color: transparent;
+border: 1px white solid;
+margin-right: 100px;
+border-radius: 8px;
+ }
+ .bt_h5{
+   font-size: 20px;
+   font-weight: 300;
+   line-height: 48px;
+   color: #FFFF;
+ }
+ .iphone_pro_dis{
+   background-color:#F6F6F6;
+   border-radius: 9px;
+   border: none;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  align-items: center;
+  width: 278px;
+  height: 442px;
+  padding: 35px;
+  gap: 15px;
+  position: relative;
+  top: 900px;
+  right: 1700px;
+ }
+ .discount50{
+   display: inline;
+   position: relative;
+  top: 800px;
+  right: 1390px;
+  white-space: nowrap;
+  font-size: 30px;
+ }
+ .about__product_76{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+ }
+ .price_h2{
+   font-size: 28px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: center;
+margin-top: 20px;
+ }
+.about__product_75{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 14px;
+   margin-bottom: 13px;
+}
+.summer_sale{
+   position: absolute;
+   top: 4400px; 
+   width:2200px;
+   height:600px;
+background: linear-gradient(100.23deg, #2E2E2E 42.36%, #000000 98.65%);
+}
+.list_summer{
+   display: flex;
+   flex-direction: column;
+   position:absolute;
+  left: 700px;
+  top: 200px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.summer_h1{
+   font-family: SF Pro Display;
+font-size: 82px;
+font-weight: 200;
+line-height: 72px;
+letter-spacing: -0.01em;
+text-align: center;
+color: #FFFF;
+}
+.summer_p{
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+text-align: center;
+color:#787878;
+}
+ .bt_h2{
+   font-family: SF Pro Display;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+text-align: center;
+color: #FFFF;
+ }
+ .btn_summer{
+   width: 184px;
+   height: 56px;
+   border-radius: 6px;
+   border: 1px white solid;
+   background-color: transparent;
+   padding: 16px;
+   margin-top: 20px;
+ }
+ .last_img_1{
+  position: relative;
+  left: 320px;
+  bottom: 285px;
+   
+ }
+ .last_img_2{
+   position: relative;
+    right: 300px;
+     bottom: 130px;
+    width: 310px;
+    height: 250px;
+    gap: 0px;
+    opacity: 0px;    
+ }
+ .last_img_3{
+   position: relative;
+   transform:rotate(-180 deg);
+   top:200px;
+   right: 650px;
+   width: 450px;
+height: 290px;
+gap: 0px;
+opacity: 0px;
+ }
+ .last_img_4{
+   position: relative;
+   left: 600px;
+   transform: rotate(31.47 deg);
+   width: 200.36px;
+height: 400.97px;
+gap: 0px;
+opacity: 0px;
+top: 20px;
+ }
+  .last_img2{
+    position: relative;
+    top: 200px;
+    width: 450px;
+height: 230px;
+gap: 0px;
+opacity: 0px;
+left: 150px;
+  }
+  

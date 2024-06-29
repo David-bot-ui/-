@@ -1,0 +1,57 @@
+.nav_logo{
+    margin-left: 50px;
+     margin-bottom: 10px;
+   }
+   .icons{
+    margin-left: 110px;
+    margin-bottom: 5px;
+   }
+   .input_div{
+    display: inline-flex;
+    padding: 0 20px;
+    background-color: #F5F5F5;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+   }
+ .nav_input{
+    width:372px;
+ height:56px;
+ padding: 10px;
+ gap: 8px;
+ border: none;
+ background-color:transparent;
+  }
+ .nav_btn{
+ border: none;
+ background-color:transparent;
+ cursor: pointer;
+ }
+ .search_nav{
+    border: none;
+    background-color: transparent;
+     
+ }
+ .nav_top{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+ }
+ .nav{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .nav_ul{
+    display: flex;
+    font-family: SF Pro Display;
+ font-size: 16px;
+ font-weight: 500;
+ line-height: 19.09px;
+ list-style: none;
+ flex-direction: row;
+ gap: 40px;
+ align-items: center;
+ }

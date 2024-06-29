@@ -1,0 +1,202 @@
+header{
+    background-color: #211C24;
+    height: 1240px;
+   }
+    .start_pr{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ gap: 160px;
+    }
+ .header_div{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+ }
+ .header_h2{
+    
+ font-size: 25px;
+ font-weight: 600;
+ line-height: 32px;
+    color:#FFFF;
+ }
+ .iphone14_h1{
+    
+ font-size: 96px;
+ font-weight: 200;
+ line-height: 72px;
+ letter-spacing: -0.01em;
+ color:#FFFF;
+ }
+ .header_p{
+    color: #909090;
+     
+ font-size: 18px;
+ font-weight: 500;
+ line-height: 24px;
+ }
+    .header_btn{
+      
+    width: 184px;
+     height: 56px;
+ font-size: 16px;
+ font-weight: 500;
+ line-height: 24px;
+ border: 1px white solid;
+ background-color: transparent;
+ border-radius: 8px;
+    }
+    .btn_h3{
+       color: #FFFF;
+        
+ font-size: 20px;
+ font-weight: 500;
+ line-height: 24px;
+ text-align: center;
+    }
+   .banners_sec{
+  background-color: #FFFF;
+  display: flex;
+  width: 800px;
+   }
+   .playstation{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+     
+   }
+   .playstation_h1{
+    
+ font-size: 55px;
+ font-weight: 500;
+ line-height: 40px;
+ color: #000000;
+   }
+   .playst_p{
+     
+ font-size: 18px;
+ font-weight: 500;
+ line-height: 24px;
+ color: #909090;
+ max-width: 400px;
+   }
+    .about_plst{
+       display: flex;
+       flex-direction: column;
+       gap: 20px;
+    }
+   .two_ban{
+      display: flex;
+      flex-direction: row;
+    background-color: #FFFF;
+    width: 800px;
+   }
+   .headphone_m{
+    display: flex;
+    background-color: #EDEDED;
+    gap: 50px;
+    width: 400px;
+    flex-direction: row;
+    
+ 
+   }
+   .about_phn{
+ display: flex;
+  flex-direction: column;
+ gap: 20px;
+ justify-content: center;
+  
+   }
+   .phn_h1{
+    font-family: SF Pro Display;
+ font-size: 29px;
+ font-weight: 300;
+ line-height: 40px;
+  max-width: 180px;
+   }
+   .phn_p{
+    display: flex;
+    font-family: SF Pro Display;
+ font-size: 14px;
+ font-weight: 500;
+ line-height: 24px;
+   max-width: 130px;
+   color:#909090;
+   }
+   .vision_div{
+    display: flex;
+    background-color:#353535;
+  width: 400px;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+   }
+ .about_vision{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+ }
+   .vs_h1{
+    color: #FFFFFF;
+ font-size: 29px;
+ font-weight: 300;
+ line-height: 40px;
+  max-width: 150px;
+   }
+  
+   .big_div{
+    position: relative;
+     left: 800px;
+   bottom: 608px;
+   background-color: #EDEDED;
+   height: 608px;
+   width: 65%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+    
+   }
+   .mac_logo{
+     margin-top: 70px;
+     margin-left: 300px;
+   }
+   .about_mac{
+    display: flex;
+    flex-direction: column;
+     gap: 20px;
+     justify-content: center;
+     
+     
+   }
+   .mac_h1{
+ font-size: 84px;
+ font-weight: 200;
+ line-height: 56px;
+   }
+   .mac_p{
+   color: #909090;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 24px;
+   max-width: 400px;
+   }
+   .bt_h4{
+      font-size: 20px;
+ font-weight: 500;
+ line-height: 24px;
+ text-align: center;
+ color: #000000;
+   }
+    .header_boot{
+      width: 184px;
+      height: 56px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  background-color: transparent;
+  border: 1px black solid;
+  border-radius: 8px;
+    }
